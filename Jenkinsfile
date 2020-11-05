@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("anickson/youtubeapp")
+        app = docker.build("anickson/youtubeapp2")
     }
 
     stage('Test image') {
